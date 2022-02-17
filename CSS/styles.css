@@ -1,0 +1,279 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*CSS Header - Navbar*/
+.header{
+    height: 70px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    padding:  1rem;
+    position: relative;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.header__logo{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;  
+}
+
+.header__logo img{
+    height: 100%;
+}
+
+.nav__links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: 18px; 
+}
+
+.nav__links a{
+    color: white;
+}
+
+a.nav__links-active, a:hover{
+    background-color: rgba(0,136,169,0.8);
+    transition: .5s;
+    border-radius: 5px;
+    padding: 10px;   
+}
+
+
+/* CSS Footer*/
+
+footer{
+    background-color: #333;
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 900px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li{
+    margin: 0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i{
+    font-size: 1.1rem;
+    transition:color 0.4s ease;
+}
+
+.social a:hover{
+    color: aqua;
+}
+
+.footer-bottom{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.footer-bottom span{
+    opacity: .6;
+    font-weight: 200;
+}
+
+/*CSS Section Index*/
+.fotoSpartan{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+/*CSS Section Galery*/
+
+
+.h2galery{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20 px 0;
+    font-size: 40px;
+    color: #333;
+}
+
+.linea{
+    background: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+   
+}
+
+.galeria > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+
+.galeria img{
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s;   
+}
+
+.galeria a:hover{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+.light-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light-box img{
+    width: 75vw;
+    max-height: 85vh;
+}
+
+.light-box:target{
+    transform: scale(1);
+}
+
+.close{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #851919;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.next{
+    display: block;
+    background: #851919;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* RESPONSIVE GALERY */
+@media screen and (max-width:400px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+} 
+
+/* */
+
+
