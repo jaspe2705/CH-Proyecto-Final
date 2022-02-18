@@ -274,6 +274,193 @@ footer{
     }
 } 
 
-/* */
+/*CSS section preguntas.html*/
+.faqs {
+    padding: 50px;
+  }
+  
+  .faqs h5{
+    text-align: center;
+    text-transform: uppercase;
+}
+  
+  .faqs p{
+    text-decoration: double;
+  }
 
+.preguntas{
+    background: rgb(207, 203, 203);
+    max-width: auto;  
+}
 
+/*CSS section nosotros.html*/
+.nosotros__text .h5 .h6{
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.nosotos__text .p{
+    text-decoration: double;
+}
+
+.nosotros{
+    background: rgb(207, 203, 203);
+    max-width: auto;
+    text-align: center;
+    padding: 50px 20px 20px 20px;   
+}
+
+/*CSS section contacto.html*/ 
+.sectioncontacto{
+    background: rgb(207, 203, 203);
+}
+
+.content{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+    
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 3);
+    
+}
+    
+.contact-wrapper>*{
+    padding: 1em;
+}
+    
+.contact-form{
+background: rgb(207, 203, 203);
+}
+    
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+    
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+    
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #d63031;
+}
+    
+.contact-form form button{
+    background: #DDBEBE;
+    border:0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+    
+.contact-form form button:hover,
+.contact-form form button:focus{
+    background-color: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+    
+    
+.contact-info{
+    background: #FBF3E4;
+    
+    
+}
+    
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+    
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+    
+.contact-info ul li{
+    padding: .3em;
+}
+    
+.contact-info img{
+    width: 30ex;
+    height: 30ex;
+}
+
+.contact-form h3{
+        text-align: center;
+}
+
+    /*CSS section sedes.html */ 
+.sectionsedes{
+    background: rgb(207, 203, 203);
+    
+    
+}
+
+.sedes{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+}
+
+.botonmapa{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: #dad4d4dc;
+    color: #000;
+    font-weight: bold;
+}
+
+.botonturnos{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10%;
+    background-color: #dad4d4dc;
+    color: #000;
+    font-weight: bold;
+}
+
+.fotogim{
+    border: 3px solid #000;
+    border-radius: 5%;
+}
+
+.sedes h3{
+    padding-top: 40px;
+}
+
+.botonessedes{
+    padding-top: 30px;
+}
+
+.sedes p{
+    text-align: left;
+}
+
+.sedes h3{
+    font-weight: bold;
+    font-style: italic;
+    color: midnightblue;
+}
+
+    
+    
+    

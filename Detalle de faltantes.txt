@@ -1,0 +1,34 @@
+FALTA TERMINAR:
+-SEDES (VER DE AGREGAR DIRECION??) 
+-PLANES Y HORARIOS
+-TURNOS
+
+
+- index.html (HOME)
+Terminado header / sectcion / footer
+TERMINADO
+
+- nosotros.html
+Terminado header / section / footer
+TERMINADO, SE LE PODRIA DAR MAS ESTILO?
+
+- sedes.html
+Terminado header / section / footer
+TERMINADO, SE LE PODRÍA PONER DIRECCION?
+
+- planesyhorarios.html
+Terminado header / footer
+FALTA css al section
+
+- preguntas.html (FAQS)
+Terminado header / section/ footer
+TERMINADO, SE LE PODRIA DAR MAS ESTILO?
+
+- turnos.html
+Terminado header / footer
+FALTA css al section
+
+- contacto.html
+Terminado header / section / footer
+TERMINADO
+
