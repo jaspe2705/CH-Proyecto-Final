@@ -25,66 +25,82 @@
     <title>SPARTAN Crossfit - Turnos</title>
 </head>
 <body>
-        <header class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <label for="">SPARTAN Crossfit</label>
-                    <!--<img src="./Images/LogoCasco1.png" alt="LogoCasco" width="75" height="75">-->
-                </div>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <label for="">SPARTAN Crossfit</label>
+                <!--<img src="./Images/LogoCasco1.png" alt="LogoCasco" width="75" height="75">-->
+            </div>
+            
+            <nav class="nav">
+                <a class="btn-open-sidebar" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
                 
-                <nav class="nav">
-                    
-                    <ul class="nav__links">
-                            
-                        <li><a class="nav__links-active" href="./index.html">Home</a></li>
-                        <li><a href="./nosotros.html">Nosotros</a></li>
-                        <li><a href="./sedes.html">Sedes</a></li>            
-                        <li><a href="./planesyhorarios.html">Planes y Horarios</a></li>
-                        <li><a href="./preguntas.html">Faqs</a></li>
-                        <li><a href="./turnos.html">Turnos App 2.0</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div> 
-        </header>
+                <ul class="nav__links" id="sidebar">
+                        
+                    <li><a class="nav__links-active" href="./index.html">Home</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./sedes.html">Sedes</a></li>            
+                    <li><a href="./planesyhorarios.html">Planes y Horarios</a></li>
+                    <li><a href="./preguntas.html">Faqs</a></li>
+                    <li><a href="./turnos.html">Turnos App 2.0</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a class="btn-close-sidebar" href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
 
-    <section>
+    <section class="turnos">
 
-        <input type="email" name="" id="" placeholder="Ingresar email">
+        <div class="turnos__email">
+            <h5>INGRESAR SU EMAIL</h5>
+            <input class="email__holder" type="email" name="" id="" placeholder="Ingresar email">
+        </div>
 
+        <div class="turnos__sede">
+            <h5>SEDE</h5>
+            <form>
+                <select name="Sede">
+                    <option value="0">Seleccionar</option>
+                    <option value="1">Sede 1</option>
+                    <option value="2">Sede 2</option>
+                    <option value="3">Sede 3</option>
+                </select>
+            </form>
+        </div>
 
-        <h4>SEDE</h4>
-        <form>
-            <select name="Sede">
-                <option value="0">Seleccionar</option>
-                <option value="1">Sede 1</option>
-                <option value="2">Sede 2</option>
-            </select>
-        </form>
+        <div class="turnos__dia">
+            <h5>DIA</h5>
+            <form>
+                <input type="date">
+            </form>
+        </div>
 
-        <h4>DIA</h4>
-        <form>
-            <input type="date">
-        </form>
+        <div class="turnos__horario">
+            <h5>HORARIO</h5>
+            <form>
+                <select name="Dia">
+                    <option value="Selecccionar">Seleccionar</option>
+                    <option value="600">6.00 - Sede 2</option>
+                    <option value="700">7.00 - Sede 2</option>
+                    <option value="730">7.30 - Sede 3</option>                
+                    <option value="830">8.30 - Sede 1</option>
+                    <option value="900">9.00 - Sede 3</option>
+                    <option value="930">9.30 - Sede 1 </option>
+                    <option value="1700">17.00 - Sede 2</option>
+                    <option value="1800">18.00 - Sede 2</option>
+                    <option value="1900">19.00 - Sede 3</option>
+                    <option value="2000">20.00 - Sde 3</option>
+                    <option value="2030">20.30 - Sede 1</option>
+                    <option value="2130">21.30 - Sede 1</option>
+                    <option value="1000">10.00 - Sede 1</option>
+                    <option value="1100">11.00 - Sede 2</option>
+                    <option value="1230">12.30 - Sede 3</option>
+                </select>
+            </form>
+        </div>
 
-        <h4>HORARIO</h4>
-        <form>
-            <select name="Dia">
-                <option value="Selecccionar">Seleccionar</option>
-                <option value="600">6.00</option>
-                <option value="700">7.00</option>                
-                <option value="830">8.30</option>
-                <option value="930">9.30</option>
-                <option value="10..">10.00</option>
-                <option value="1230">12.30</option>
-                <option value="1700">17.00</option>
-                <option value="1800">18.00</option>
-                <option value="2030">20.30</option>
-                <option value="2130">21.30</option>
-            </select>
-        </form>
-
-        <button class="submit">Reservar</button>
+        <button class="turnos__submit">Reservar</button>
 
     </section>
 

@@ -1,8 +1,5 @@
-FALTA TERMINAR:
--SEDES (VER DE AGREGAR DIRECION??) 
--PLANES Y HORARIOS
--TURNOS
-
+-WIREFRAMES
+Terminados (index / nosotros / sedes / planesyhorarios / preguntas / turnos / contacto)
 
 - index.html (HOME)
 Terminado header / sectcion / footer
@@ -14,19 +11,19 @@ TERMINADO, SE LE PODRIA DAR MAS ESTILO?
 
 - sedes.html
 Terminado header / section / footer
-TERMINADO, SE LE PODRÍA PONER DIRECCION?
+
 
 - planesyhorarios.html
-Terminado header / footer
-FALTA css al section
+Terminado header / section / footer
+
 
 - preguntas.html (FAQS)
 Terminado header / section/ footer
 TERMINADO, SE LE PODRIA DAR MAS ESTILO?
 
 - turnos.html
-Terminado header / footer
-FALTA css al section
+Terminado header / section / footer
+SE LE PODRIA DAR UN AVISO AL TOCAR EL BOTON DE RESERVAR??? O ES CON JS???
 
 - contacto.html
 Terminado header / section / footer

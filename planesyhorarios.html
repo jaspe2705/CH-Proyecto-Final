@@ -25,55 +25,72 @@
     <title>SPARTAN Crossfit - Planes y Horarios</title>
 </head>
 <body>
-        <header class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <label for="">SPARTAN Crossfit</label>
-                    <!--<img src="./Images/LogoCasco1.png" alt="LogoCasco" width="75" height="75">-->
-                </div>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <label for="">SPARTAN Crossfit</label>
+                <!--<img src="./Images/LogoCasco1.png" alt="LogoCasco" width="75" height="75">-->
+            </div>
+            
+            <nav class="nav">
+                <a class="btn-open-sidebar" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
                 
-                <nav class="nav">
-                    
-                    <ul class="nav__links">
-                            
-                        <li><a class="nav__links-active" href="./index.html">Home</a></li>
-                        <li><a href="./nosotros.html">Nosotros</a></li>
-                        <li><a href="./sedes.html">Sedes</a></li>            
-                        <li><a href="./planesyhorarios.html">Planes y Horarios</a></li>
-                        <li><a href="./preguntas.html">Faqs</a></li>
-                        <li><a href="./turnos.html">Turnos App 2.0</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div> 
-        </header>
+                <ul class="nav__links" id="sidebar">
+                        
+                    <li><a class="nav__links-active" href="./index.html">Home</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./sedes.html">Sedes</a></li>            
+                    <li><a href="./planesyhorarios.html">Planes y Horarios</a></li>
+                    <li><a href="./preguntas.html">Faqs</a></li>
+                    <li><a href="./turnos.html">Turnos App 2.0</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a class="btn-close-sidebar" href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
 
-    <section>
+    <section class="planesyhorarios">
         <div class="clases">
-            <h1>ABONO TRIMESTRAL</h1>
-            <ul>
-                <li>8 Clases - $ 10.000</li>
-                <li>12 Clases - $ 11.500</li>
-                <li>16 Clases - $ 12.500</li>
-                <li>24 Clases - $ 16.000</li>
+            <h1 class="clases__h1">ABONO TRIMESTRAL</h1>
+            <ul class="trimestral">
+                <li class="clases__sesiones">8 Clases - $ 10.000</li>
+                <li class="clases__sesiones">12 Clases - $ 11.500</li>
+                <li class="clases__sesiones">16 Clases - $ 12.500</li>
+                <li class="clases__sesiones">24 Clases - $ 16.000</li>
             </ul>
+
+        
         </div>
+
+
 
         <table class="horarios">
             <tr>
-                <th>HORARIOS</th>
-                <th>SEDE 1</th>
-                <th>SEDE 2 </th>
+                <th class="horarios__title">HORARIOS</th>
+                <th class="horarios__title">SEDE 1</th>
+                <th class="horarios__title">SEDE 2 </th>
+                <th class="horarios__title">SEDE 3 </th>
             </tr>
             <tr>
-                <td>Lunes a Viernes</td>
-                <td>8.30 / 9.30 / 20.30 / 21.30</td>
-                <td>6.00 / 7.00 / 17.00 / 18.00</td>
+                <td>Lunes a Viernes (Mañana)</td>
+                <td>8.30 / 9.30</td>
+                <td>6.00 / 7.00</td>
+                <td>7.30 / 9.00</td>
+                
             </tr>
+            <tr>
+                <td>Lunes a Viernes (Tarde)</td>
+                <td>20.30 / 21.30</td>
+                <td>17.00 / 18.00</td>
+                <td>19.00 / 20.00</td>
+            </tr>
+
             <tr>
                 <td>Sábados</td>
                 <td>10.00 </td>
                 <td>12.30</td>
+                <td>11.00</td>
             </tr>
 
         </table>
