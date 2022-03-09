@@ -29,3 +29,28 @@ SE LE PODRIA DAR UN AVISO AL TOCAR EL BOTON DE RESERVAR??? O ES CON JS???
 Terminado header / section / footer
 TERMINADO
 
+COMMIT 09/03/2022 - Rama1
+- index.html (HOME)
+AOS (Link + JS + Initialize JS)
+
+- nosotros.html
+AOS (Link + JS + Initialize JS)
+
+- sedes.html
+AOS (Link + JS + Initialize JS)
+AOS en H3
+
+- planesyhorarios.html
+AOS (Link + JS + Initialize JS)
+
+- preguntas.html (FAQS)
+AOS (Link + JS + Initialize JS)
+
+- turnos.html
+AOS (Link + JS + Initialize JS)
+
+- contacto.html
+AOS (Link + JS + Initialize JS)
+
+
+
