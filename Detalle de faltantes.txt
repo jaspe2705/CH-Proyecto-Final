@@ -29,6 +29,8 @@ SE LE PODRIA DAR UN AVISO AL TOCAR EL BOTON DE RESERVAR??? O ES CON JS???
 Terminado header / section / footer
 TERMINADO
 
+-------------------------------------------------------------------------------
+
 COMMIT 09/03/2022 - Rama1
 - index.html (HOME)
 AOS (Link + JS + Initialize JS)
@@ -51,6 +53,47 @@ AOS (Link + JS + Initialize JS)
 
 - contacto.html
 AOS (Link + JS + Initialize JS)
+
+-------------------------------------------------------------------------------
+
+COMMIT 09/03/2022
+Agregado TXT
+
+-------------------------------------------------------------------------------
+
+COMMIT 09/03/2022 - Cambios generales y correcciones - Ver TXR
+- index.html (HOME)
+
+
+- nosotros.html
+Cambio de fondo x imagen
+
+
+- sedes.html
+Cambio de fondo x imagen + cambio color dirección y localidad
+
+
+- planesyhorarios.html
+Corrección responsivle sobre <table class="horarios"> y <div class="clases"> en formato mobile
+
+
+- preguntas.html (FAQS)
+faqs .p__faqs / alineación centrada
+Cambio de fondo x imagen + cambio color texto
+
+
+- turnos.html
+Corrección responsive sobre <section class="turnos"> en formato mobile
+Cambio de fondo x imagen
+
+
+- contacto.html
+Cambio de fondo x imagen
+
+-------------------------------------------------------------------------------
+
+
+
 
 
 

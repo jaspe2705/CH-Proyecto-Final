@@ -313,13 +313,19 @@ footer{
     text-transform: uppercase;
 }
   
-  .faqs p{
+  .faqs .p__faqs{
     text-decoration: double;
+    text-align: center;
   }
 
 .preguntas{
-    background: rgb(207, 203, 203);
+    /*background: rgb(207, 203, 203);*/
+    background-image: url(../Images/fondo.jpg);
     max-width: auto;  
+}
+
+.faqs{
+    color:#fff;
 }
 
 .p__faqs{
@@ -337,6 +343,8 @@ footer{
 /*CSS section nosotros.html*/
 
 
+
+
 .nosotros__text .h5 .h6{
     text-align: center;
     text-transform: uppercase; 
@@ -344,13 +352,17 @@ footer{
 
 .nosotos__text .p{
     text-decoration: double;
+    
 }
 
 .nosotros{
-    background: rgb(207, 203, 203);
+    /*background: rgb(207, 203, 203);*/
+    background-image: url(../Images/fondo.jpg);
     max-width: auto;
     text-align: center;
-    padding: 50px 20px 20px 20px;   
+    padding: 50px 20px 20px 20px; 
+    color: #fff;
+
 }
 
 .p__nosostros{
@@ -370,7 +382,9 @@ footer{
 
 /*CSS section contacto.html*/ 
 .sectioncontacto{
-    background: rgb(207, 203, 203);
+    /*background: rgb(207, 203, 203);*/
+    background-image: url(../Images/fondo.jpg);
+
 }
 
 .content{
@@ -466,10 +480,16 @@ background: rgb(207, 203, 203);
 
 /*CSS section sedes.html */ 
 .sectionsedes{
-    background: rgb(207, 203, 203);
-    
-    
-    
+    /*background: rgb(207, 203, 203);*/
+    background-image: url(../Images/fondo.jpg);
+  }
+
+.sedes span{
+    color: #fff;
+}
+
+.sedes p{
+    color: #fff;
 }
 
 .sedes{
@@ -596,15 +616,22 @@ background: rgb(207, 203, 203);
 }
 
 /*CSS - turnos.html*/
+.sectionturnos{
+    background-image: url(../Images/fondo.jpg);
+    height: 100vh;
+        
+}
+
 .turnos{
     text-align: center;
     margin: 0 auto;
-    margin-top: 5rem;
+    /*margin-top: 5rem;*/
     margin-bottom: 5rem;
     background-color: gray;
-    width: 30rem;
+    width: 35rem;
     padding: 2rem 2rem;
     box-shadow: 0 0 20px 0 ;
+       
 }
 
 .email__holder{
@@ -871,9 +898,10 @@ background: rgb(207, 203, 203);
     /*QUERY MOBILE - planesyhorarios.html*/
     /*Reducción sectin clases - planesyhorarios.html*/
    .clases{
-       width: auto;
+       width: 100vw;
        margin-top: 0.5rem;
-   }
+       
+    }
 
    .clases__h1{
        font-size:1.5rem;
@@ -884,8 +912,25 @@ background: rgb(207, 203, 203);
    }
 
    .horarios{
+       width: 100vw;
+       margin 0px 10px 0px 10px;
 
    }
+
+   .horarios__title{
+       font-size: 1rem;
+   }
+
+ 
+
+    /*QUERY MOBILE - turnos.html*/
+    /*Reducción clase turnos__email - planesyhorarios.html*/
+
+    .turnos{
+        width:100%;
+    }
+
+
 
 
 
