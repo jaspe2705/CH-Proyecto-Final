@@ -61,7 +61,7 @@ Agregado TXT
 
 -------------------------------------------------------------------------------
 
-COMMIT 09/03/2022 - Cambios generales y correcciones - Ver TXR
+COMMIT 09/03/2022 - Cambios generales y correcciones - Ver txt
 - index.html (HOME)
 
 
@@ -92,6 +92,51 @@ Cambio de fondo x imagen
 
 -------------------------------------------------------------------------------
 
+COMMIT 10/03/2022 - Cambios genarales / Agregado de Bootstrap / Ver detalle del commit en txt
+
+- index.html (HOME)
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
+Agregado Carousel con Bootstrap - Corrección del tamaño con container
+
+
+- nosotros.html
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
+
+
+- sedes.html
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
+Agregado Card para sedes con Bootstrap + Algunos detalles en CSS
+
+
+- planesyhorarios.html
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
+Agregado Card para planes y horarios + Algunos detalles en CSS
+
+
+- preguntas.html (FAQS)
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
+
+
+- turnos.html
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
+
+
+- contacto.html
+Agregado Bootstrap (link rel + js)
+Navbar con Boorstrap
+Agregado de main
 
 
 

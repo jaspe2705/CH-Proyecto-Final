@@ -7,7 +7,7 @@
 }
 
 /*CSS Header - Navbar*/
-
+/* 
 .header{
     height: 110px;
     box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
@@ -71,13 +71,15 @@ a.nav__links-active, a:hover{
 }
 
 /*Menu latetal*/
+
+/*
 .btn-open-sidebar{
     display: none;
 }
 
 .btn-close-sidebar{
     display: none;
-}
+} */ 
 
 
 /* CSS Footer*/
@@ -207,7 +209,7 @@ footer{
     width: 100%;
     display: block;
 }
-
+/* 
 .galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -301,27 +303,33 @@ footer{
         top: 20px;
         right: 20px;
     }
-} 
+}  */
 
 /*CSS section preguntas.html*/
+
 .faqs {
-    padding: 50px;
+    padding: 100px;
   }
   
   .faqs h5{
     text-align: center;
     text-transform: uppercase;
+    padding-top: 2rem;
+    
 }
   
   .faqs .p__faqs{
     text-decoration: double;
     text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
   }
 
 .preguntas{
     /*background: rgb(207, 203, 203);*/
     background-image: url(../Images/fondo.jpg);
-    max-width: auto;  
+    max-width: auto;
+    padding-top: 3rem;
 }
 
 .faqs{
@@ -479,9 +487,33 @@ background: rgb(207, 203, 203);
 }
 
 /*CSS section sedes.html */ 
+.sedes{
+    background-image: url(../Images/fondo.jpg);
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+
+
+.card-body h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body span{
+    font-weight: bold;
+}
+
+
+
+
+/* 
 .sectionsedes{
     /*background: rgb(207, 203, 203);*/
-    background-image: url(../Images/fondo.jpg);
+    /* background-image: url(../Images/fondo.jpg);
   }
 
 .sedes span{
@@ -538,24 +570,33 @@ background: rgb(207, 203, 203);
     font-weight: bold;
     font-style: italic;
     color: midnightblue;
-}
+} */ 
 
 /*CSS planesyhorarios.html*/
+.planesyhorarios{
+    background-image: url(../Images/fondo.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 
 /*Flex a section - planesyhorarios.html*/
-.planesyhorarios{
+/* .planesyhorarios{
     display: flex;
     flex-direction: column;
     padding: 8rem ;
     background: rgb(0,0,59);
     background: linear-gradient(90deg, rgba(0,0,59,0.9) 0%, rgba(134,34,92,1) 100%);
     align-items: center;
-}
+} */
 
 
 
 /*Estilo clases - planesyhorarios.html*/
-.clases{
+
+
+
+/* .clases{
     text-align: center;
     padding: 2rem;
     border-radius: 5%;
@@ -564,22 +605,22 @@ background: rgb(207, 203, 203);
     margin-bottom: 5rem;
     
     
-}
+} */
 
 /*Estilo clases - planesyhorarios.html*/
-.clases__sesiones{
+/* .clases__sesiones{
     list-style: none;
     font-size: 1.5rem;
-}
+} */
 
 /*Estilo H1 - planesyhorarios.html*/
-.clases__h1{
+/* .clases__h1{
     color: #550b51;
     font-weight: bold;
     font-style: italic;
-}
+} */
 
-.horarios{
+/* .horarios{
     text-align: center;
     padding: 2rem;
     background-color: rgba(219, 215, 215, 0.993);
@@ -588,37 +629,38 @@ background: rgb(207, 203, 203);
     border-collapse: collapse;
 
     
-}
+} */
 
 /*Darle tamaño a los titulos de la tabla de hoarios - planesyhorarios.html*/
-.horarios__title{
+/* .horarios__title{
     font-size: 1.5rem;
-}
+} */
 
-.horarios td, th{
+/* .horarios td, th{
     padding: 1rem;
     
-}
+} */
 
-.horarios th{
+/* .horarios th{
     background-color: #246355;
     border: solid 5px #0F362D;
     color: #fff;
-}
+} */
 
-.horarios tr:nth-child(even){
+/* .horarios tr:nth-child(even){
     background-color:gray;
-}
+} */
 
-.horarios tr:hover{
+/* .horarios tr:hover{
     background-color: #d63031;
     color: #fff;
-}
+} */
 
 /*CSS - turnos.html*/
 .sectionturnos{
     background-image: url(../Images/fondo.jpg);
     height: 100vh;
+    
         
 }
 
@@ -627,10 +669,12 @@ background: rgb(207, 203, 203);
     margin: 0 auto;
     /*margin-top: 5rem;*/
     margin-bottom: 5rem;
-    background-color: gray;
+    color:#fff;
+    font-style: italic bold;
     width: 35rem;
     padding: 2rem 2rem;
     box-shadow: 0 0 20px 0 ;
+    
        
 }
 
@@ -660,13 +704,13 @@ background: rgb(207, 203, 203);
     height: 2rem;
     width: 10rem;
     border-radius: 10%;
-    background-color: #851919;
+    background-color: #333;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .turnos__submit:hover{
-    background-color: blueviolet;
+    background-color: rgba(0,136,169,0.8);
 }
 
 
@@ -743,33 +787,35 @@ background: rgb(207, 203, 203);
     }
 
     /*Aplicacion flex wrap para ajustar al achicar pantalla - sedes.htmal*/
-    .sedes{
+    
+    }    
+    /* .sedes{
         display: flex;
-        flex-wrap: wrap;
-    }
+        flex-wrap: wrap; 
+    }/*
 
     /*Separando un caja de la otra - sedes.html*/
-    .sede1{
+    /* .sede1{
         padding-bottom: 2rem;
         border-bottom: 1px solid gray;
         margin-bottom: 1rem;
        
         
-    }
+    } */
 
     /*Separando un caja de la otra - sedes.html*/
-    .sede2{
+    /* .sede2{
         padding-bottom: 2rem;
         border-bottom: 1px solid gray;
         margin-bottom: 1rem;
-    }
+    } */
 
     /*Separando un caja de la otra - sedes.html*/
-    .sede3{
+    /* .sede3{
         padding-bottom: 2rem;
         border-bottom: 1px solid gray;
         margin-bottom: 1rem;
-    }
+    } */
 
     
 
@@ -858,42 +904,45 @@ background: rgb(207, 203, 203);
         font-size: 1.5rem;
     }
 
+    /*CSS - sedes.html*/
+
+
     /*Colocando en columnas las sedes - sedes-html*/
-    .sedes{
+    /* .sedes{
         flex-direction: column;
+    } */
+
+    /*Separando un caja de la otra - sedes.html*/
+    /* .sede1{
+        padding-bottom: 2rem;
+        border-bottom: 1px solid gray;
+        margin-bottom: 1rem; */
     }
 
     /*Separando un caja de la otra - sedes.html*/
-    .sede1{
+    /* .sede2{
         padding-bottom: 2rem;
         border-bottom: 1px solid gray;
-        margin-bottom: 1rem;
-    }
+        margin-bottom: 1rem; 
+    }/*
 
     /*Separando un caja de la otra - sedes.html*/
-    .sede2{
+    /* .sede3{
         padding-bottom: 2rem;
         border-bottom: 1px solid gray;
         margin-bottom: 1rem;
-    }
-
-    /*Separando un caja de la otra - sedes.html*/
-    .sede3{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem;
-    }
+    } */
 
     /*Reducción fotos sedes - sedes.html*/
-    .fotogim{
+    /* .fotogim{
         width: 225px;
         height: 150px;
-    }
+    } */
 
     /*Reduccion h3 (nombre gim) - sedes.html*/
-    .sedes h3{
+    /* .sedes h3{
         font-size: 2rem;
-    }
+    } */
 
     /*QUERY MOBILE - planesyhorarios.html*/
     /*Reducción sectin clases - planesyhorarios.html*/
@@ -929,6 +978,10 @@ background: rgb(207, 203, 203);
     .turnos{
         width:100%;
     }
+
+
+
+
 
 
 
