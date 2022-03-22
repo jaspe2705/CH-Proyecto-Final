@@ -1,0 +1,43 @@
+
+/*CSS section preguntas.html*/
+.preguntas{
+  /*background: rgb(207, 203, 203);*/
+  background: $mifondo;
+  /*background-size: contain;*/
+  max-width: auto;
+  padding-top: 3rem;
+
+    .faqs {
+      padding-left: 15%;
+      padding-right: 15%;
+      font-weight: bold;
+    }
+
+}
+
+  .faqs h5{
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    
+}
+  
+  .faqs .p__faqs{
+    text-decoration: double;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    color: #fff;
+  }
+
+
+
+.p__faqs{
+    border-bottom: 1px solid black;
+}
+
+.h5__faqs{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+}

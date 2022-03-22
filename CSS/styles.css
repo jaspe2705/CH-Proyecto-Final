@@ -1,1003 +1,433 @@
+@charset "UTF-8";
 /*Reset*/
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
 
-/*CSS Header - Navbar*/
-/* 
-.header{
-    height: 110px;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
-    position: relative;
-    background-color: #333;
-    
-    
-}
+/*CSS Footer*/
+footer {
+  background-color: #333;
+  height: auto;
+  width: auto;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #fff; }
 
-.header__container{
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-
-}
-
-.nav__links{
-    list-style: none;
-    display: flex;
-    font-size: 18px;
-    gap: 2rem;
-    padding-right: 1rem;
-   
-
-    
-}
-
-.header__logo{
-    font-size: 2.5rem;
-    color: white;
-    font-weight: bold;
-    padding-left: 1rem;
-    text-align: center;
-        
-}
-
-.nav__links a{
-    color: #000;
-    color: white;
-    
-}
-
-a.nav__links-active, a:hover{
-    background-color: rgba(0,136,169,0.8);
-    transition: .5s;
-    border-radius: 5px;
-    padding: 10px;   
-}
-
-.nav__links a:hover{
-    background-color: gray;
-    transition: .5s;
-    border-radius: 5px;
-    padding: 10px;  
-    color: #fff;
-    text-decoration: none;
-}
-
-/*Menu latetal*/
-
-/*
-.btn-open-sidebar{
-    display: none;
-}
-
-.btn-close-sidebar{
-    display: none;
-} */ 
-
-
-/* CSS Footer*/
-
-footer{
-    background-color: #333;
-    height: auto;
-    width: auto;
-    font-family: sans-serif;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    color: #fff;
-    
-}
-
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h3{
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .footer-content h3 {
     font-size: 1.8rem;
     font-weight: bold;
     text-transform: capitalize;
-    line-height: 3rem;
-}
+    line-height: 3rem; }
+    .footer-content h3 p {
+      max-width: 900px;
+      margin: 10px auto;
+      line-height: 28px;
+      font-size: 14px; }
 
-.footer-content p{
-    max-width: 900px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0; }
+  .social li {
+    margin: 0 10px; }
+    .social li a {
+      text-decoration: none;
+      color: #fff; }
+      .social li a:hover {
+        color: aqua; }
+        .social li a:hover a i {
+          font-size: 1.1rem;
+          transition: color 0.4s ease; }
 
-.social{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-
-.social li{
-    margin: 0 10px;
-}
-
-.social a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.social a i{
-    font-size: 1.1rem;
-    transition:color 0.4s ease;
-}
-
-.social a:hover{
-    color: aqua;
-}
-
-.footer-bottom{
-    background-color: #000;
-    width: 100vw;
-    padding: 20px 0;
-    
-}
-
-.footer-bottom p{
+.footer-bottom {
+  background-color: #000;
+  width: 100vw;
+  padding: 20px 0; }
+  .footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
-    text-align: center;
-}
-
-.footer-bottom span{
-    opacity: .6;
-    font-weight: 200;
-}
+    text-align: center; }
+    .footer-bottom p span {
+      opacity: .6;
+      font-weight: 200; }
 
 /*CSS Section Index*/
-.fotoSpartan{
-    padding-top: 5rem;
-    text-align: center;
-}
+.fotoSpartan {
+  padding-top: 5rem;
+  text-align: center; }
 
-.title{
-    font-size: 1.8rem;
-    font-weight: 700;
-    text-transform: capitalize;
-    line-height: 3rem;
-    text-align: center;
-    font-family: sans-serif;
-
-}
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 3rem;
+  text-align: center;
+  font-family: sans-serif; }
 
 /*CSS Section Galery*/
+.h2galery {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20 px 0;
+  font-size: 40px;
+  color: #333;
+  /*Animacion H2*/
+  animation-duration: 2s;
+  animation-name: h2galeria;
+  animation-iteration-count: infinite; }
 
-
-.h2galery{
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: center;
-    padding: 20 px 0;
-    font-size: 40px;
-    color: #333;
-    /*Animacion H2*/
-    animation-duration: 2s;
-    animation-name: h2galeria;
-    animation-iteration-count: infinite;
-}
 /*Animacion H2*/
-@keyframes h2galeria{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
+@keyframes h2galeria {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
-.linea{
-    background: #550b51;
-    height: 5px;
-    width: 100%;
-    display: block;
-}
-/* 
-.galeria{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 95%;
-    margin: auto;
-    grid-gap: 10px;
-    padding: 40px 0;
-    overflow: hidden;
-   
-}
+.linea {
+  background: #550b51;
+  height: 5px;
+  width: 100%;
+  display: block; }
 
-.galeria > a{
-    display: block;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-}
+/*CSS section preguntas.html*/
+.preguntas {
+  /*background: rgb(207, 203, 203);*/
+  background: url(/Images/fondo.jpg);
+  /*background-size: contain;*/
+  max-width: auto;
+  padding-top: 3rem; }
+  .preguntas .faqs {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold; }
 
+.faqs h5 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #fff; }
 
-.galeria img{
-    width: 95%;
-    margin: auto;
-    grid-gap: 10px;
-    vertical-align: top;
-    height: 300px;
-    object-fit: cover;
-    transition: transform 0.5s;   
-}
+.faqs .p__faqs {
+  text-decoration: double;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  color: #fff; }
 
-.galeria a:hover{
-    filter: blur(2px);
-    transform: rotate(10deg) scale(1.3);
-}
+.p__faqs {
+  border-bottom: 1px solid black; }
 
-.light-box{
+.h5__faqs {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5rem; }
+
+/*CSS section nosotros.html*/
+.nosotros {
+  /*background: rgb(207, 203, 203);*/
+  background-image: url(/Images/fondo.jpg);
+  color: #fff;
+  max-width: auto;
+  text-align: center;
+  padding: 50px 20px 20px 20px;
+  color: #fff; }
+  .nosotros .nosotros__text {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: bold; }
+    .nosotros .nosotros__text .h5 .h6 {
+      text-align: center;
+      text-transform: uppercase; }
+      .nosotros .nosotros__text .h5 .h6 .p {
+        text-decoration: double; }
+
+.p__nosostros {
+  border-bottom: 1px solid black; }
+
+.span_nosotros {
+  font-weight: bold;
+  font-style: italic; }
+
+.h5_nosotros {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem; }
+
+/*CSS section contacto.html*/
+.sectioncontacto {
+  /*background: rgb(207, 203, 203);*/
+  background-image: url(/Images/fondo.jpg); }
+
+.content {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 white; }
+
+.contact-wrapper > * {
+  padding: 1em; }
+
+.contact-form {
+  background: #cfcbcb; }
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contact-form form .block {
+  grid-column: 1 / 3; }
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d63031; }
+
+.contact-form form button {
+  background: #DDBEBE;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background-color: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+.contact-info {
+  background: #FBF3E4; }
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+.contact-info ul {
+  list-style: none;
+  padding: 0; }
+
+.contact-info ul li {
+  padding: .3em; }
+
+.contact-info img {
+  width: 30ex;
+  height: 30ex; }
+
+.contact-form h3 {
+  text-align: center; }
+
+/*CSS section sedes.html */
+.sedes {
+  background-image: url(/Images/fondo.jpg);
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.card-body h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; }
+
+.card-body span {
+  font-weight: bold; }
+
+/*CSS planesyhorarios.html*/
+.planesyhorarios {
+  background-image: url(/Images/fondo.jpg);
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+/*
+CSS - turnos.html
+*/
+.sectionturnos {
+  background-image: url(/Images/fondo.jpg);
+  height: 100vh; }
+
+.turnos {
+  text-align: center;
+  margin: 0 auto;
+  /*margin-top: 5rem;*/
+  margin-bottom: 5rem;
+  color: #fff;
+  font-style: italic bold;
+  width: 35rem;
+  padding: 2rem 2rem;
+  box-shadow: 0 0 20px 0; }
+
+.email__holder {
+  width: 300px;
+  text-align: center; }
+
+.turnos__email {
+  padding-bottom: 1rem; }
+
+.turnos__sede {
+  padding-bottom: 1rem; }
+
+.turnos__dia {
+  padding-bottom: 1rem; }
+
+.turnos__horario {
+  padding-bottom: 1rem; }
+
+.turnos__submit {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 10%;
+  background-color: #333;
+  font-size: 1rem;
+  font-weight: bold; }
+
+.turnos__submit:hover {
+  background-color: rgba(0, 136, 169, 0.8); }
+
+/*Media Query for mobile*/
+/*TABLET*/
+@media screen and (max-width: 1024px) {
+  .header {
+    height: auto;
+    padding-top: 0.5rem; }
+  .header__container {
+    flex-direction: column; }
+  /*Sidebar (menú lateral)*/
+  .btn-open-sidebar {
+    display: inline-block;
+    background-color: rgba(0, 136, 169, 0.8);
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    color: #fff; }
+  /*Ocultar menu*/
+  .nav__links {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .5);
-    transition: transform 0.3s ease-in-out;
-    width: 100%;
-    height: 100vh;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(0);
-}
-
-.light-box img{
-    width: 75vw;
-    max-height: 85vh;
-}
-
-.light-box:target{
-    transform: scale(1);
-}
-
-.close{
-    display: block;
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    background: #851919;
-    color: #fff;
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-}
-
-.next{
-    display: block;
-    background: #851919;
-    color: #fff;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    text-decoration: none;
-    text-align: center;
-}
-
-/* RESPONSIVE GALERY */
-@media screen and (max-width:400px){
-    .galeria{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    .close{
-        top: 20px;
-        right: 20px;
-    }
-}  */
-
-/*CSS section preguntas.html*/
-
-.faqs {
-    padding: 100px;
-  }
-  
-  .faqs h5{
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 2rem;
-    
-}
-  
-  .faqs .p__faqs{
-    text-decoration: double;
-    text-align: center;
-    padding-bottom: 2rem;
-    margin-bottom: 0;
-  }
-
-.preguntas{
-    /*background: rgb(207, 203, 203);*/
-    background-image: url(../Images/fondo.jpg);
-    max-width: auto;
-    padding-top: 3rem;
-}
-
-.faqs{
-    color:#fff;
-}
-
-.p__faqs{
-    border-bottom: 1px solid black;
-}
-
-.h5__faqs{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.5rem;
-}
-
-
-
-/*CSS section nosotros.html*/
-
-
-
-
-.nosotros__text .h5 .h6{
-    text-align: center;
-    text-transform: uppercase; 
-}
-
-.nosotos__text .p{
-    text-decoration: double;
-    
-}
-
-.nosotros{
-    /*background: rgb(207, 203, 203);*/
-    background-image: url(../Images/fondo.jpg);
-    max-width: auto;
-    text-align: center;
-    padding: 50px 20px 20px 20px; 
-    color: #fff;
-
-}
-
-.p__nosostros{
-    border-bottom: 1px solid black;
-}
-
-.span_nosotros{
-    font-weight: bold;
-    font-style: italic;
-}
-
-.h5_nosotros{
-    font-weight: bold;
-    font-style: italic;
-    font-size: 2rem;
-}
-
-/*CSS section contacto.html*/ 
-.sectioncontacto{
-    /*background: rgb(207, 203, 203);*/
-    background-image: url(../Images/fondo.jpg);
-
-}
-
-.content{
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-    
-.contact-wrapper{
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 3);
-    
-}
-    
-.contact-wrapper>*{
-    padding: 1em;
-}
-    
-.contact-form{
-background: rgb(207, 203, 203);
-}
-    
-.contact-form form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-    
-.contact-form form .block{
-    grid-column: 1 / 3;
-}
-    
-.contact-form form p{
-    margin: 0;
-    padding: 1em;
-}
-    
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea{
-    width: 100%;
-    padding: .7em;
-    border: none;
-    background: none;
-    border-bottom: 1px solid #d63031;
-}
-    
-.contact-form form button{
-    background: #DDBEBE;
-    border:0;
-    text-transform: uppercase;
-    padding: 1em;
-}
-    
-.contact-form form button:hover,
-.contact-form form button:focus{
-    background-color: #d63031;
-    color: #fff;
-    transition: background-color 1s ease-out;
-    outline: 0;
-}
-    
-    
-.contact-info{
-    background: #FBF3E4;
-    
-    
-}
-    
-.contact-info h4,
-.contact-info ul,
-.contact-info p{
-    text-align: center;
-    margin: 0 0 1rem 0;
-}
-    
-.contact-info ul{
-    list-style: none;
-    padding: 0;
-}
-    
-.contact-info ul li{
-    padding: .3em;
-}
-    
-.contact-info img{
-    width: 30ex;
-    height: 30ex;
-}
-
-.contact-form h3{
-        text-align: center;
-}
-
-/*CSS section sedes.html */ 
-.sedes{
-    background-image: url(../Images/fondo.jpg);
-    margin: 0;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-
-
-
-.card-body h5{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.card-body span{
-    font-weight: bold;
-}
-
-
-
-
-/* 
-.sectionsedes{
-    /*background: rgb(207, 203, 203);*/
-    /* background-image: url(../Images/fondo.jpg);
-  }
-
-.sedes span{
-    color: #fff;
-}
-
-.sedes p{
-    color: #fff;
-}
-
-.sedes{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    text-align: center;
-}
-
-.botonmapa{
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 10%;
-    background-color: #dad4d4dc;
-    color: #000;
-    font-weight: bold;
-}
-
-.botonturnos{
-    border: 2px solid;
-    padding: 5px;
-    border-radius: 10%;
-    background-color: #dad4d4dc;
-    color: #000;
-    font-weight: bold;
-}
-
-.fotogim{
-    border: 3px solid #000;
-    border-radius: 5%;
-}
-
-.sedes h3{
-    padding-top: 40px;
-}
-
-.botonessedes{
-    padding-top: 30px;
-}
-
-.sedes p{
-    text-align: center;
-}
-
-.sedes h3{
-    font-weight: bold;
-    font-style: italic;
-    color: midnightblue;
-} */ 
-
-/*CSS planesyhorarios.html*/
-.planesyhorarios{
-    background-image: url(../Images/fondo.jpg);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-
-/*Flex a section - planesyhorarios.html*/
-/* .planesyhorarios{
-    display: flex;
+    transform: translate(-100%);
     flex-direction: column;
-    padding: 8rem ;
-    background: rgb(0,0,59);
-    background: linear-gradient(90deg, rgba(0,0,59,0.9) 0%, rgba(134,34,92,1) 100%);
-    align-items: center;
-} */
-
-
-
-/*Estilo clases - planesyhorarios.html*/
-
-
-
-/* .clases{
-    text-align: center;
-    padding: 2rem;
-    border-radius: 5%;
-    background-color: rgba(219, 215, 215, 0.993);
-    width: 60%;
-    margin-bottom: 5rem;
-    
-    
-} */
-
-/*Estilo clases - planesyhorarios.html*/
-/* .clases__sesiones{
-    list-style: none;
-    font-size: 1.5rem;
-} */
-
-/*Estilo H1 - planesyhorarios.html*/
-/* .clases__h1{
-    color: #550b51;
-    font-weight: bold;
-    font-style: italic;
-} */
-
-/* .horarios{
-    text-align: center;
-    padding: 2rem;
-    background-color: rgba(219, 215, 215, 0.993);
-    width: 60%;
-    text-align: center;
-    border-collapse: collapse;
-
-    
-} */
-
-/*Darle tamaño a los titulos de la tabla de hoarios - planesyhorarios.html*/
-/* .horarios__title{
-    font-size: 1.5rem;
-} */
-
-/* .horarios td, th{
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
-    
-} */
+    transition: transform 0.5s;
+    z-index: 100; }
+  /*Visualizacion menu lateral*/
+  #sidebar:target {
+    transform: translate(0); }
+  /*Visualizacion del icono de cerrar*/
+  .btn-close-sidebar {
+    display: inline; }
+  /*Redunccion de letra*/
+  .header__logo {
+    font-size: 2.5rem; }
+  /*Colocacion Nombre y barra de menu en linea*/
+  .header__container {
+    flex-direction: row; } }
 
-/* .horarios th{
-    background-color: #246355;
-    border: solid 5px #0F362D;
-    color: #fff;
-} */
+/*QUERY - planesyhorarios.htm*/
+.planesyhorarios {
+  display: flex;
+  flex-direction: column; }
 
-/* .horarios tr:nth-child(even){
-    background-color:gray;
-} */
+.clases {
+  width: 100%; }
 
-/* .horarios tr:hover{
-    background-color: #d63031;
-    color: #fff;
-} */
-
-/*CSS - turnos.html*/
-.sectionturnos{
-    background-image: url(../Images/fondo.jpg);
-    height: 100vh;
-    
-        
-}
-
-.turnos{
-    text-align: center;
-    margin: 0 auto;
-    /*margin-top: 5rem;*/
-    margin-bottom: 5rem;
-    color:#fff;
-    font-style: italic bold;
-    width: 35rem;
-    padding: 2rem 2rem;
-    box-shadow: 0 0 20px 0 ;
-    
-       
-}
-
-.email__holder{
-    width: 300px;
-    text-align: center;
-}
-
-
-.turnos__email{
-    padding-bottom: 1rem;
-}
-
-.turnos__sede{
-    padding-bottom: 1rem;
-}
-
-.turnos__dia{
-    padding-bottom: 1rem;
-}
-
-.turnos__horario{
-    padding-bottom: 1rem;
-}
-
-.turnos__submit{
-    height: 2rem;
-    width: 10rem;
-    border-radius: 10%;
-    background-color: #333;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.turnos__submit:hover{
-    background-color: rgba(0,136,169,0.8);
-}
-
-
-
-
-
-
-/* */
-
-
-
-
-/*Media Query for mobile*/
-
-/*TABLET*/
-@media screen and (max-width: 1024px){
-    .header{
-        height: auto;
-        padding-top: 0.5rem;
-    }
-   
-    .header__container{
-       flex-direction: column;
-   }
-
-
-    /*Sidebar (menú lateral)*/
-    .btn-open-sidebar{
-        display: inline-block;
-        background-color: rgba(0,136,169,0.8);
-        border-radius: 5px;
-        padding: 0.5rem 2rem;
-        color: #fff;
-        
-    }
-
-
-    /*Ocultar menu*/
-    .nav__links{
-        background-color: rgb(0, 0, 0, 0.8);
-        width: 80%;
-        max-width: 400px;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        transform: translate(-100%);
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-        padding: 1rem;
-        transition: transform 0.5s;
-        z-index: 100;
-    }
-    
-    /*Visualizacion menu lateral*/
-    #sidebar:target {
-        transform: translate(0);
-    }
-
-    /*Visualizacion del icono de cerrar*/
-    .btn-close-sidebar{
-        display: inline;
-
-    }
-    /*Redunccion de letra*/
-    .header__logo{
-        font-size: 2.5rem;
-    }
-
-    /*Colocacion Nombre y barra de menu en linea*/
-    .header__container{
-        flex-direction: row;
-    }
-
-    /*Aplicacion flex wrap para ajustar al achicar pantalla - sedes.htmal*/
-    
-    }    
-    /* .sedes{
-        display: flex;
-        flex-wrap: wrap; 
-    }/*
-
-    /*Separando un caja de la otra - sedes.html*/
-    /* .sede1{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem;
-       
-        
-    } */
-
-    /*Separando un caja de la otra - sedes.html*/
-    /* .sede2{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem;
-    } */
-
-    /*Separando un caja de la otra - sedes.html*/
-    /* .sede3{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem;
-    } */
-
-    
-
-   
-
-    /*QUERY - planesyhorarios.htm*/
-    .planesyhorarios{
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .clases{
-        width: 100%;
-        
-    }
-
-    .horarios{
-        width: 100%;
-    }
-
-
-    
-}
+.horarios {
+  width: 100%; }
 
 /*MOBILE*/
-@media screen and (max-width: 600px){
-    .nav__links{
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    .header{
-        height: auto;
-    }
+@media screen and (max-width: 600px) {
+  .nav__links {
+    flex-wrap: wrap;
+    gap: 20px; }
+  .header {
+    height: auto; }
+  /*Sidebar (menú lateral)*/
+  .btn-open-sidebar {
+    display: inline-block;
+    background-color: rgba(0, 136, 169, 0.8);
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    color: #fff; }
+  /*Ocultar menu*/
+  .nav__links {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-100%);
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    transition: transform 0.5s;
+    z-index: 100; }
+  /*Visualizacion menu lateral*/
+  #sidebar:target {
+    transform: translate(0); }
+  /*Visualizacion del icono de cerrar*/
+  .btn-close-sidebar {
+    display: inline; }
+  /*Redunccion de letra*/
+  .header__logo {
+    font-size: 2rem; }
+  /*Colocacion Nombre y barra de menu en linea*/
+  .header__container {
+    flex-direction: row; }
+  /*Reduccion h5 - nosotros.html*/
+  .h5_nosotros {
+    font-size: 1.5rem; } }
 
-    /*Sidebar (menú lateral)*/
-    .btn-open-sidebar{
-        display: inline-block;
-        background-color: rgba(0,136,169,0.8);
-        border-radius: 5px;
-        padding: 0.5rem 2rem;
-        color: #fff;
-                
-    }
+/*QUERY MOBILE - planesyhorarios.html*/
+/*Reducción sectin clases - planesyhorarios.html*/
+.clases {
+  width: 100vw;
+  margin-top: 0.5rem; }
 
-    /*Ocultar menu*/
-    .nav__links{
-        background-color: rgb(0, 0, 0, 0.8);
-        width: 80%;
-        max-width: 400px;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        transform: translate(-100%);
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-        padding: 1rem;
-        transition: transform 0.5s;
-        z-index: 100;
-    }
-    
-    /*Visualizacion menu lateral*/
-    #sidebar:target {
-        transform: translate(0);
-    }
+.clases__h1 {
+  font-size: 1.5rem; }
 
-    /*Visualizacion del icono de cerrar*/
-    .btn-close-sidebar{
-        display: inline;
-        
-    }
-    /*Redunccion de letra*/
-    .header__logo{
-        font-size: 2rem;
-    }
+.clases__sesiones {
+  font-size: 1rem; }
 
-    /*Colocacion Nombre y barra de menu en linea*/
-    .header__container{
-        flex-direction: row;
-    }
+.horarios {
+  width: 100vw;
+  margin: 0px 10px 0px 10px; }
 
-    /*Reduccion h5 - nosotros.html*/
-    .h5_nosotros{
-        font-size: 1.5rem;
-    }
+.horarios__title {
+  font-size: 1rem; }
 
-    /*CSS - sedes.html*/
-
-
-    /*Colocando en columnas las sedes - sedes-html*/
-    /* .sedes{
-        flex-direction: column;
-    } */
-
-    /*Separando un caja de la otra - sedes.html*/
-    /* .sede1{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem; */
-    }
-
-    /*Separando un caja de la otra - sedes.html*/
-    /* .sede2{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem; 
-    }/*
-
-    /*Separando un caja de la otra - sedes.html*/
-    /* .sede3{
-        padding-bottom: 2rem;
-        border-bottom: 1px solid gray;
-        margin-bottom: 1rem;
-    } */
-
-    /*Reducción fotos sedes - sedes.html*/
-    /* .fotogim{
-        width: 225px;
-        height: 150px;
-    } */
-
-    /*Reduccion h3 (nombre gim) - sedes.html*/
-    /* .sedes h3{
-        font-size: 2rem;
-    } */
-
-    /*QUERY MOBILE - planesyhorarios.html*/
-    /*Reducción sectin clases - planesyhorarios.html*/
-   .clases{
-       width: 100vw;
-       margin-top: 0.5rem;
-       
-    }
-
-   .clases__h1{
-       font-size:1.5rem;
-   }
-
-   .clases__sesiones{
-       font-size: 1rem;
-   }
-
-   .horarios{
-       width: 100vw;
-       margin 0px 10px 0px 10px;
-
-   }
-
-   .horarios__title{
-       font-size: 1rem;
-   }
-
- 
-
-    /*QUERY MOBILE - turnos.html*/
-    /*Reducción clase turnos__email - planesyhorarios.html*/
-
-    .turnos{
-        width:100%;
-    }
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-  
-
-    
-    
-}
-
-    
-    
-    
+/*QUERY MOBILE - turnos.html*/
+/*Reducción clase turnos__email - planesyhorarios.html*/
+.turnos {
+  width: 100%; }

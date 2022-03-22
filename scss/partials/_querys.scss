@@ -1,0 +1,192 @@
+
+
+/*Media Query for mobile*/
+
+/*TABLET*/
+@media screen and (max-width: 1024px){
+    .header{
+        height: auto;
+        padding-top: 0.5rem;
+    }
+   
+    .header__container{
+       flex-direction: column;
+   }
+
+
+    /*Sidebar (menú lateral)*/
+    .btn-open-sidebar{
+        display: inline-block;
+        background-color: rgba(0,136,169,0.8);
+        border-radius: 5px;
+        padding: 0.5rem 2rem;
+        color: #fff;
+        
+    }
+
+
+    /*Ocultar menu*/
+    .nav__links{
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 100;
+    }
+    
+    /*Visualizacion menu lateral*/
+    #sidebar:target {
+        transform: translate(0);
+    }
+
+    /*Visualizacion del icono de cerrar*/
+    .btn-close-sidebar{
+        display: inline;
+
+    }
+    /*Redunccion de letra*/
+    .header__logo{
+        font-size: 2.5rem;
+    }
+
+    /*Colocacion Nombre y barra de menu en linea*/
+    .header__container{
+        flex-direction: row;
+    }
+
+}
+    
+
+   
+
+    /*QUERY - planesyhorarios.htm*/
+    .planesyhorarios{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .clases{
+        width: 100%;
+        
+    }
+
+    .horarios{
+        width: 100%;
+    }
+
+
+    
+
+
+/*MOBILE*/
+@media screen and (max-width: 600px){
+    .nav__links{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .header{
+        height: auto;
+    }
+
+    /*Sidebar (menú lateral)*/
+    .btn-open-sidebar{
+        display: inline-block;
+        background-color: rgba(0,136,169,0.8);
+        border-radius: 5px;
+        padding: 0.5rem 2rem;
+        color: #fff;
+                
+    }
+
+    /*Ocultar menu*/
+    .nav__links{
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 80%;
+        max-width: 400px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+        transition: transform 0.5s;
+        z-index: 100;
+    }
+    
+    /*Visualizacion menu lateral*/
+    #sidebar:target {
+        transform: translate(0);
+    }
+
+    /*Visualizacion del icono de cerrar*/
+    .btn-close-sidebar{
+        display: inline;
+        
+    }
+    /*Redunccion de letra*/
+    .header__logo{
+        font-size: 2rem;
+    }
+
+    /*Colocacion Nombre y barra de menu en linea*/
+    .header__container{
+        flex-direction: row;
+    }
+
+    /*Reduccion h5 - nosotros.html*/
+    .h5_nosotros{
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+    
+
+    /*QUERY MOBILE - planesyhorarios.html*/
+    /*Reducción sectin clases - planesyhorarios.html*/
+   .clases{
+       width: 100vw;
+       margin-top: 0.5rem;
+       
+    }
+
+   .clases__h1{
+       font-size:1.5rem;
+   }
+
+   .clases__sesiones{
+       font-size: 1rem;
+   }
+
+   .horarios{
+       width: 100vw;
+       margin: 0px 10px 0px 10px;
+
+   }
+
+   .horarios__title{
+       font-size: 1rem;
+   }
+
+ 
+
+    /*QUERY MOBILE - turnos.html*/
+    /*Reducción clase turnos__email - planesyhorarios.html*/
+
+    .turnos{
+        width: 100%;
+    }

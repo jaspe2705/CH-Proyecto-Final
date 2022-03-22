@@ -1,0 +1,44 @@
+/*CSS section nosotros.html*/
+.nosotros{
+    /*background: rgb(207, 203, 203);*/
+    background-image: $mifondo;
+    color: #fff;
+    max-width: auto;
+    text-align: center;
+    padding: 50px 20px 20px 20px; 
+    color: #fff;
+    
+        .nosotros__text{
+            padding-left: 15%;
+            padding-right: 15%;
+            font-weight: bold;
+   
+                .h5 .h6{
+                    text-align: center;
+                    text-transform: uppercase; 
+                
+    
+                        .p{
+                            text-decoration: double;
+            
+                        }
+                }
+        }
+}
+
+
+ 
+ .p__nosostros{
+     border-bottom: 1px solid black;
+ }
+ 
+ .span_nosotros{
+     font-weight: bold;
+     font-style: italic;
+ }
+ 
+ .h5_nosotros{
+     font-weight: bold;
+     font-style: italic;
+     font-size: 2rem;
+ }

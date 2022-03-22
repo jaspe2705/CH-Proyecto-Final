@@ -1,0 +1,47 @@
+/*CSS Section Index*/
+.fotoSpartan{
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+
+/*CSS Section Galery*/
+
+.h2galery{
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20 px 0;
+    font-size: 40px;
+    color: #333;
+    /*Animacion H2*/
+    animation-duration: 2s;
+    animation-name: h2galeria;
+    animation-iteration-count: infinite;
+}
+/*Animacion H2*/
+@keyframes h2galeria{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.linea{
+    background: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
