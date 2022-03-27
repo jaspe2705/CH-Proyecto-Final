@@ -105,13 +105,17 @@ footer {
 /*CSS section preguntas.html*/
 .preguntas {
   /*background: rgb(207, 203, 203);*/
-  background: url(/Images/fondo.jpg);
-  /*background-size: contain;*/
+  /*background: $mifondo;*/
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 46%, #06cbf4 100%);
   max-width: auto;
   padding-top: 3rem; }
   .preguntas .faqs {
+    /*@extend .nosotros__text;*/
     padding-left: 15%;
     padding-right: 15%;
+    /*padding-left: 15%;
+      padding-right: 15%;*/
     font-weight: bold; }
 
 .faqs h5 {
@@ -136,8 +140,9 @@ footer {
 
 /*CSS section nosotros.html*/
 .nosotros {
-  /*background: rgb(207, 203, 203);*/
-  background-image: url(/Images/fondo.jpg);
+  /*background-image: $mifondo;*/
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 46%, #06cbf4 100%);
   color: #fff;
   max-width: auto;
   text-align: center;
@@ -148,8 +153,7 @@ footer {
     padding-right: 15%;
     font-weight: bold; }
     .nosotros .nosotros__text .h5 .h6 {
-      text-align: center;
-      text-transform: uppercase; }
+      text-align: center; }
       .nosotros .nosotros__text .h5 .h6 .p {
         text-decoration: double; }
 
@@ -279,6 +283,9 @@ CSS - turnos.html
   width: 35rem;
   padding: 2rem 2rem;
   box-shadow: 0 0 20px 0; }
+  .turnos h3 {
+    font-weight: bold;
+    color: black; }
 
 .email__holder {
   width: 300px;
@@ -306,6 +313,15 @@ CSS - turnos.html
 
 .turnos__submit:hover {
   background-color: rgba(0, 136, 169, 0.8); }
+
+.apps__title {
+  padding-top: 2rem; }
+
+.apps_logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 /*Media Query for mobile*/
 /*TABLET*/

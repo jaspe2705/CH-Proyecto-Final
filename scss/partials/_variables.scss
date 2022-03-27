@@ -3,3 +3,13 @@
 $mifondo: url(/Images/fondo.jpg);
 
 
+$estilos: (
+    fw: bold,
+);
+
+
+@mixin styles ($padding-left, $padding-right){
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+}
+    

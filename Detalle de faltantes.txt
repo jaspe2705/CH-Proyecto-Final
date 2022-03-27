@@ -140,15 +140,34 @@ Agregado de main
 
 -------------------------------------------------------------------------------
 
-COMMIT xx/03/2022 - SASS
+COMMIT 22/03/2022 - SASS
 Correcciones recomendades en el desafío anterior
-
+Creacion .gitignore
 
 SASS (Instalación y compilación)
 Parciales / @import
 Nesting + & sobre Footer
+Nesting sobre nosotros
 Variables $background (nosotros / sedes / planesyhorarios / preguntas / turnos / contacto)
 
+
+
+-------------------------------------------------------------------------------
+
+COMMIT xx/03/2022 - SASS
+
+turnos.html / se agregó playstore y app store
+sitemap.xml
+Se comprimieron el tamaño de algunas fotos
+map-get en nosotros en .nosotros__text y mixin
+Se agregaron los alt a las imagenes y mejoro el rendimiento 
+mixin en preguntas en -faqs FALTA EXTENDS DE FW
+EN TODOS LOS HTML
+-meta name author
+-meta name description
+-meta name keywords
+-link rel icon
+-title
 
 
 

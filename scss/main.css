@@ -1,0 +1,612 @@
+@charset "UTF-8";
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/*CSS Footer*/
+footer {
+  background-color: #333;
+  height: auto;
+  width: auto;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content h3 p {
+  max-width: 900px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.social {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social li a:hover {
+  color: aqua;
+}
+
+.social li a:hover a i {
+  font-size: 1.1rem;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.footer-bottom {
+  background-color: #000;
+  width: 100vw;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.footer-bottom p span {
+  opacity: .6;
+  font-weight: 200;
+}
+
+/*CSS Section Index*/
+.fotoSpartan {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 3rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*CSS Section Galery*/
+.h2galery {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20 px 0;
+  font-size: 40px;
+  color: #333;
+  /*Animacion H2*/
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: h2galeria;
+          animation-name: h2galeria;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+/*Animacion H2*/
+@-webkit-keyframes h2galeria {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes h2galeria {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.linea {
+  background: #550b51;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+/*CSS section preguntas.html*/
+.preguntas {
+  /*background: rgb(207, 203, 203);*/
+  background: url(/Images/fondo.jpg);
+  /*background-size: contain;*/
+  max-width: auto;
+  padding-top: 3rem;
+}
+
+.preguntas .faqs {
+  /*@extend .nosotros__text;*/
+  padding-left: 15%;
+  padding-right: 15%;
+  /*padding-left: 15%;
+      padding-right: 15%;*/
+  font-weight: bold;
+}
+
+.faqs h5 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.faqs .p__faqs {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.p__faqs {
+  border-bottom: 1px solid black;
+}
+
+.h5__faqs {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+/*CSS section nosotros.html*/
+.nosotros {
+  /*background: rgb(207, 203, 203);*/
+  background-image: url(/Images/fondo.jpg);
+  color: #fff;
+  max-width: auto;
+  text-align: center;
+  padding: 50px 20px 20px 20px;
+  color: #fff;
+}
+
+.nosotros .nosotros__text {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: bold;
+}
+
+.nosotros .nosotros__text .h5 .h6 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nosotros .nosotros__text .h5 .h6 .p {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+}
+
+.p__nosostros {
+  border-bottom: 1px solid black;
+}
+
+.span_nosotros {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.h5_nosotros {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+/*CSS section contacto.html*/
+.sectioncontacto {
+  /*background: rgb(207, 203, 203);*/
+  background-image: url(/Images/fondo.jpg);
+}
+
+.content {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.contact-wrapper {
+  -webkit-box-shadow: 0 0 20px 0 white;
+          box-shadow: 0 0 20px 0 white;
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #cfcbcb;
+}
+
+.contact-form form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+  background: #DDBEBE;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background-color: #d63031;
+  color: #fff;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: #FBF3E4;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  padding: .3em;
+}
+
+.contact-info img {
+  width: 30ex;
+  height: 30ex;
+}
+
+.contact-form h3 {
+  text-align: center;
+}
+
+/*CSS section sedes.html */
+.sedes {
+  background-image: url(/Images/fondo.jpg);
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.card-body h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-body span {
+  font-weight: bold;
+}
+
+/*CSS planesyhorarios.html*/
+.planesyhorarios {
+  background-image: url(/Images/fondo.jpg);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*
+CSS - turnos.html
+*/
+.sectionturnos {
+  background-image: url(/Images/fondo.jpg);
+  height: 100vh;
+}
+
+.turnos {
+  text-align: center;
+  margin: 0 auto;
+  /*margin-top: 5rem;*/
+  margin-bottom: 5rem;
+  color: #fff;
+  font-style: italic bold;
+  width: 35rem;
+  padding: 2rem 2rem;
+  -webkit-box-shadow: 0 0 20px 0;
+          box-shadow: 0 0 20px 0;
+}
+
+.email__holder {
+  width: 300px;
+  text-align: center;
+}
+
+.turnos__email {
+  padding-bottom: 1rem;
+}
+
+.turnos__sede {
+  padding-bottom: 1rem;
+}
+
+.turnos__dia {
+  padding-bottom: 1rem;
+}
+
+.turnos__horario {
+  padding-bottom: 1rem;
+}
+
+.turnos__submit {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 10%;
+  background-color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.turnos__submit:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/*Media Query for mobile*/
+/*TABLET*/
+@media screen and (max-width: 1024px) {
+  .header {
+    height: auto;
+    padding-top: 0.5rem;
+  }
+  .header__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /*Sidebar (menú lateral)*/
+  .btn-open-sidebar {
+    display: inline-block;
+    background-color: rgba(0, 136, 169, 0.8);
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    color: #fff;
+  }
+  /*Ocultar menu*/
+  .nav__links {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    z-index: 100;
+  }
+  /*Visualizacion menu lateral*/
+  #sidebar:target {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  /*Visualizacion del icono de cerrar*/
+  .btn-close-sidebar {
+    display: inline;
+  }
+  /*Redunccion de letra*/
+  .header__logo {
+    font-size: 2.5rem;
+  }
+  /*Colocacion Nombre y barra de menu en linea*/
+  .header__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+/*QUERY - planesyhorarios.htm*/
+.planesyhorarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.clases {
+  width: 100%;
+}
+
+.horarios {
+  width: 100%;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+  .nav__links {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .header {
+    height: auto;
+  }
+  /*Sidebar (menú lateral)*/
+  .btn-open-sidebar {
+    display: inline-block;
+    background-color: rgba(0, 136, 169, 0.8);
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    color: #fff;
+  }
+  /*Ocultar menu*/
+  .nav__links {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    z-index: 100;
+  }
+  /*Visualizacion menu lateral*/
+  #sidebar:target {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  /*Visualizacion del icono de cerrar*/
+  .btn-close-sidebar {
+    display: inline;
+  }
+  /*Redunccion de letra*/
+  .header__logo {
+    font-size: 2rem;
+  }
+  /*Colocacion Nombre y barra de menu en linea*/
+  .header__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  /*Reduccion h5 - nosotros.html*/
+  .h5_nosotros {
+    font-size: 1.5rem;
+  }
+}
+
+/*QUERY MOBILE - planesyhorarios.html*/
+/*Reducción sectin clases - planesyhorarios.html*/
+.clases {
+  width: 100vw;
+  margin-top: 0.5rem;
+}
+
+.clases__h1 {
+  font-size: 1.5rem;
+}
+
+.clases__sesiones {
+  font-size: 1rem;
+}
+
+.horarios {
+  width: 100vw;
+  margin: 0px 10px 0px 10px;
+}
+
+.horarios__title {
+  font-size: 1rem;
+}
+
+/*QUERY MOBILE - turnos.html*/
+/*Reducción clase turnos__email - planesyhorarios.html*/
+.turnos {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

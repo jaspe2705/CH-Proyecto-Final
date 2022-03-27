@@ -1,15 +1,21 @@
 
+
 /*CSS section preguntas.html*/
 .preguntas{
   /*background: rgb(207, 203, 203);*/
-  background: $mifondo;
-  /*background-size: contain;*/
+  /*background: $mifondo;*/
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(6,203,244,1) 100%);
   max-width: auto;
   padding-top: 3rem;
 
+
     .faqs {
-      padding-left: 15%;
-      padding-right: 15%;
+      /*@extend .nosotros__text;*/
+      @include styles(15%, 15%);
+      
+      /*padding-left: 15%;
+      padding-right: 15%;*/
       font-weight: bold;
     }
 
