@@ -23,3 +23,12 @@
 >link rel icon
 
 >title
+
+# **COMMIT 02/04/2022** #
+> **description:** corregido
+
+> **meta keywords:** corredigo
+
+> **alt:** corredigo
+
+> **gradiente:** corredigo

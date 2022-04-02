@@ -2,10 +2,10 @@
 
 /*CSS section preguntas.html*/
 .preguntas{
-  /*background: rgb(207, 203, 203);*/
+ 
   /*background: $mifondo;*/
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(6,203,244,1) 100%);
+  background: rgb(62,62,64);
+    background: linear-gradient(90deg, rgba(62,62,64,1) 0%, rgba(171,171,176,1) 35%, rgba(223,227,228,1) 100%);
   max-width: auto;
   padding-top: 3rem;
 
@@ -24,7 +24,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(
   .faqs h5{
     text-align: center;
     padding-top: 2rem;
-    color: #fff;
+    color: black;
     
 }
   
@@ -33,7 +33,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 46%, rgba(
     text-align: center;
     padding-bottom: 2rem;
     margin-bottom: 0;
-    color: #fff;
+    color: black;
   }
 
 

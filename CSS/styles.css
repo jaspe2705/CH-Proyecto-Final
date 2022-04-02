@@ -104,10 +104,9 @@ footer {
 
 /*CSS section preguntas.html*/
 .preguntas {
-  /*background: rgb(207, 203, 203);*/
   /*background: $mifondo;*/
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 46%, #06cbf4 100%);
+  background: #3e3e40;
+  background: linear-gradient(90deg, #3e3e40 0%, #ababb0 35%, #dfe3e4 100%);
   max-width: auto;
   padding-top: 3rem; }
   .preguntas .faqs {
@@ -121,14 +120,14 @@ footer {
 .faqs h5 {
   text-align: center;
   padding-top: 2rem;
-  color: #fff; }
+  color: black; }
 
 .faqs .p__faqs {
   text-decoration: double;
   text-align: center;
   padding-bottom: 2rem;
   margin-bottom: 0;
-  color: #fff; }
+  color: black; }
 
 .p__faqs {
   border-bottom: 1px solid black; }
@@ -141,13 +140,12 @@ footer {
 /*CSS section nosotros.html*/
 .nosotros {
   /*background-image: $mifondo;*/
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 46%, #06cbf4 100%);
-  color: #fff;
+  background: #3e3e40;
+  background: linear-gradient(90deg, #3e3e40 0%, #ababb0 35%, #dfe3e4 100%);
+  color: black;
   max-width: auto;
   text-align: center;
-  padding: 50px 20px 20px 20px;
-  color: #fff; }
+  padding: 50px 20px 20px 20px; }
   .nosotros .nosotros__text {
     padding-left: 15%;
     padding-right: 15%;
