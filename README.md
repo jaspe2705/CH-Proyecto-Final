@@ -32,3 +32,5 @@
 > **alt:** corredigo
 
 > **gradiente:** corredigo
+
+> **imagen nosotros.html & preguntas.html:** corregido se oscureció la imagen para que el contraste con las letras quede bien.

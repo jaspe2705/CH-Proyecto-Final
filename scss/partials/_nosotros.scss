@@ -1,10 +1,11 @@
 /*CSS section nosotros.html*/
 
 .nosotros{
-    /*background-image: $mifondo;*/
-    background: rgb(62,62,64);
-    background: linear-gradient(90deg, rgba(62,62,64,1) 0%, rgba(171,171,176,1) 35%, rgba(223,227,228,1) 100%);
-    color: black;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
+    url(/Images/fondo.jpg);
+    /*background: rgb(62,62,64);
+    background: linear-gradient(90deg, rgba(62,62,64,1) 0%, rgba(171,171,176,1) 35%, rgba(223,227,228,1) 100%);*/
+    color: white;
     max-width: auto;
     text-align: center;
     padding: 50px 20px 20px 20px; 
