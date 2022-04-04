@@ -104,7 +104,7 @@ footer {
 
 /*CSS section preguntas.html*/
 .preguntas {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("/images/fondo.jpg");
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../images/fondo.jpg");
   /*background: rgb(62,62,64);
   background: linear-gradient(90deg, rgba(62,62,64,1) 0%, rgba(171,171,176,1) 35%, rgba(223,227,228,1) 100%);*/
   max-width: auto;
@@ -139,7 +139,7 @@ footer {
 
 /*CSS section nosotros.html*/
 .nosotros {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("/images/fondo.jpg");
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../images/fondo.jpg");
   /*background: rgb(62,62,64);
     background: linear-gradient(90deg, rgba(62,62,64,1) 0%, rgba(171,171,176,1) 35%, rgba(223,227,228,1) 100%);*/
   color: white;
@@ -170,7 +170,7 @@ footer {
 /*CSS section contacto.html*/
 .sectioncontacto {
   /*background: rgb(207, 203, 203);*/
-  background-image: url("/images/fondo.jpg"); }
+  background-image: url("../images/fondo.jpg"); }
 
 .content {
   max-width: 700px;
@@ -245,7 +245,7 @@ footer {
 
 /*CSS section sedes.html */
 .sedes {
-  background-image: url("/images/fondo.jpg");
+  background-image: url("../images/fondo.jpg");
   margin: 0;
   padding-top: 5rem;
   padding-bottom: 5rem; }
@@ -260,7 +260,7 @@ footer {
 
 /*CSS planesyhorarios.html*/
 .planesyhorarios {
-  background-image: url("/images/fondo.jpg");
+  background-image: url("../images/fondo.jpg");
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
@@ -268,7 +268,7 @@ footer {
 CSS - turnos.html
 */
 .sectionturnos {
-  background-image: url("/images/fondo.jpg");
+  background-image: url("../images/fondo.jpg");
   height: 100vh; }
 
 .turnos {
