@@ -63,59 +63,71 @@
     <div class="sectionturnos">
     <section class="turnos">
 
-        <div class="turnos__email">
-            <h3>Ingresar su email</h3>
-            <input class="email__holder" type="email" name="" id="" placeholder="Ingresar email">
-        </div>
 
-        <div class="turnos__sede">
-            <h3>Sede</h3>
-            <form>
-                <select name="Sede">
-                    <option value="0">Seleccionar</option>
-                    <option value="1">Sede 1</option>
-                    <option value="2">Sede 2</option>
-                    <option value="3">Sede 3</option>
-                </select>
-            </form>
+        <div class="container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Reservá tu turno</h2>
+                    <h4>Ingresar su email</h4>
+                    <input type="text" class="field" placeholder="Email">
+                    <div class="turnos__sede">
+                        <h4>Sede</h4>
+                        <form>
+                            <select name="Sede">
+                                <option value="0">Seleccionar</option>
+                                <option value="1">Sede 1</option>
+                                <option value="2">Sede 2</option>
+                                <option value="3">Sede 3</option>
+                            </select>
+                        </form>
+                    </div>
+            
+                    <div class="turnos__dia">
+                        <h4>Dia</h4>
+                        <form>
+                            <input type="date">
+                        </form>
+                    </div>
+            
+                    <div class="turnos__horario">
+                        <h4>Horarios</h4>
+                        <form>
+                            <select name="Dia">
+                                <option value="Selecccionar">Seleccionar</option>
+                                <option value="600">6.00 - Sede 2</option>
+                                <option value="700">7.00 - Sede 2</option>
+                                <option value="730">7.30 - Sede 3</option>                
+                                <option value="830">8.30 - Sede 1</option>
+                                <option value="900">9.00 - Sede 3</option>
+                                <option value="930">9.30 - Sede 1 </option>
+                                <option value="1700">17.00 - Sede 2</option>
+                                <option value="1800">18.00 - Sede 2</option>
+                                <option value="1900">19.00 - Sede 3</option>
+                                <option value="2000">20.00 - Sde 3</option>
+                                <option value="2030">20.30 - Sede 1</option>
+                                <option value="2130">21.30 - Sede 1</option>
+                                <option value="1000">10.00 - Sede 1</option>
+                                <option value="1100">11.00 - Sede 2</option>
+                                <option value="1230">12.30 - Sede 3</option>
+                            </select>
+                        </form>
+                    </div>
+                    
+                    
+                    <button class="btn">Enviar</button>
+                </div>
+            </div>
         </div>
-
-        <div class="turnos__dia">
-            <h3>Dia</h3>
-            <form>
-                <input type="date">
-            </form>
-        </div>
-
-        <div class="turnos__horario">
-            <h3>Horarios</h3>
-            <form>
-                <select name="Dia">
-                    <option value="Selecccionar">Seleccionar</option>
-                    <option value="600">6.00 - Sede 2</option>
-                    <option value="700">7.00 - Sede 2</option>
-                    <option value="730">7.30 - Sede 3</option>                
-                    <option value="830">8.30 - Sede 1</option>
-                    <option value="900">9.00 - Sede 3</option>
-                    <option value="930">9.30 - Sede 1 </option>
-                    <option value="1700">17.00 - Sede 2</option>
-                    <option value="1800">18.00 - Sede 2</option>
-                    <option value="1900">19.00 - Sede 3</option>
-                    <option value="2000">20.00 - Sde 3</option>
-                    <option value="2030">20.30 - Sede 1</option>
-                    <option value="2130">21.30 - Sede 1</option>
-                    <option value="1000">10.00 - Sede 1</option>
-                    <option value="1100">11.00 - Sede 2</option>
-                    <option value="1230">12.30 - Sede 3</option>
-                </select>
-            </form>
-        </div>
-
-        <button class="turnos__submit">Reservar</button>
 
         
+    
+
+    </section>
+    <section class="apps">
+        <h3 class="apps__title">Descarga la APP</h3>
         <div class="apps__logos">
-            <h3 class="apps__title">Descarga la APP</h3>
+            
                 <a href="https://play.google.com/store" target="_blank">
                     <img class="logoapp" src="images/play-store.png" alt="Logo play-store" width="150" height="55">
                 </a>
@@ -123,10 +135,6 @@
                     <img class="logoapp" src="images/app-store.png" alt="Logo app-store" width="150" height="55">
                 </a>
             </div>
-
-    </section>
-    <section class="apps">
-        
     </section>
 
     </div>

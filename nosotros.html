@@ -65,20 +65,54 @@
     
      
     <section class="nosotros">
-        <div class="nosotros__text">
-            <h5 class="h5_nosotros  animate__animated animate__swing animate__delay-2s	2s">Quienes somos</h5>
-            <p class="p__nosostros">SPARTAN CROSSFIT es un box (Gimnasio de Crossfit) afiliciado a CROSSFIT INC. Usa, que cuenta con
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left bg-dark text-white text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Quienes somos?
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              SPARTAN CROSSFIT es un box (Gimnasio de Crossfit) afiliciado a CROSSFIT INC. Usa, que cuenta con
             Coachs capacitados en varios métodos dentro del sistema y amplia experiencia en deportesc omo gimnasia deportiva, 
-            levantamiento olímpico, Kettlebell Trainnin.</p>
-            <h5 class="h5_nosotros animate__animated animate__swing animate__delay-2s	2s">Que es Crossfit</h5>
-            <p class="p__nosostros">Crossfit es un sistema de acondicionamiento físico basado en movimientos funcionales constantemente variados
-            ejecutados a alta intensidad (Relativa según cada individuo).</p>
-            <h5 class="h5_nosotros animate__animated animate__swing animate__delay-2s	2s">Modalidades de Crossfit</h5>
-            <p>El Crossfit es una modalidad de entrenamiento que pretende un estado de “forma física total” 
+            levantamiento olímpico, Kettlebell Trainning.<code></code>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed bg-dark text-white text-center" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Que es Crossfit
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Crossfit es un sistema de acondicionamiento físico basado en movimientos funcionales constantemente variados
+            ejecutados a alta intensidad (Relativa según cada individuo).
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed bg-dark text-white text-center" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Modalidades de Crossfit
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              El Crossfit es una modalidad de entrenamiento que pretende un estado de “forma física total” 
             desarrollando todas las cualidades físicas. Los llamados WOD (Workout of the Day o “Entrenamiento del Día“)
             consisten en 1, 2 ó 3 grupos de ejercicios dependiendo de las áreas físicas para desarrollar. 
             Existen distintos tipos de ejercicios que pueden incluirse en el WOD: ejercicios gimnásticos, de levantamiento de peso, de lanzamiento, precisión, dinámicos, de acondicionamiento metabólico y ejercicios balísticos.
-            <span class="span_nosotros">A continuación te presentamos algunos de los WOD más populares:</span></p>
+            <span class="span_nosotros">A continuación te presentamos algunos de los WOD más populares:</span>
             <h6><span class="span_nosotros">AMRAP (As Many Repetitions As Posible)</span></h6>
             <p>Consiste en realizar el mayor número de repeticiones de ejercicios posibles en un tiempo determinado. 
             Por ejemplo en 20 minutos hacer la mayor cantidad de repeticiones de 30 flexiones, 30 sentadillas 
@@ -92,8 +126,17 @@
             <h6><span class="span_nosotros">Tabata</span></h6>
             <p>Se trata de realizar 8 rondas o repeticiones en 20 segundos de ejecución del ejercicio intenso, 
             con 10 minutos de descanso. También puede ser un TABATA de dos o tres ejercicios diferentes.</p>
-        
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="./images/video-sogas.mp4" allowfullscreen></iframe>
+      </div>
+     
+      
+      
 
     </section>
     
@@ -125,7 +168,7 @@
     <!--JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
+    
     <script src="https://kit.fontawesome.com/a51f1ddc36.js" crossorigin="anonymous"></script>
     
     <!--JS AOS-->

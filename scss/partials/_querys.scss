@@ -63,7 +63,17 @@
         flex-direction: row;
     }
 
+    .nosotros{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+
+    .preguntas{
+        padding: 1rem 5rem 1rem 5rem;
+    }
+
 }
+
+
     
 
    
@@ -147,10 +157,31 @@
     }
 
     /*Reduccion h5 - nosotros.html*/
+
+
     .h5_nosotros{
         font-size: 1.5rem;
     }
 
+    .footer-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+
+    .nosotros{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    .preguntas{
+        padding: 1rem 2rem 1rem 2rem;
+    }
 
     
 }
@@ -192,3 +223,5 @@
     .turnos{
         width: 100%;
     }
+    
+    
