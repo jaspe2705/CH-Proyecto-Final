@@ -34,3 +34,12 @@
 > **gradiente:** corredigo
 
 > **imagen nosotros.html & preguntas.html:** corregido se oscureció la imagen para que el contraste con las letras quede bien.
+
+# **COMMIT 17/04/2022** #
+>**imagenes de fondo:** se corrigió el error y funciona la imagen de fondo.
+
+>**nosotros.hmtl y preguntas.html:** se cambio un un collapse acordeon y en nosotros se agregó un video.
+
+>**footer:** se corrigió el width porque se desbordaba y el contenido se achicó.
+
+>**turnos.html y contacto:** se cambió el formato de ambos como para que sea consecuentes entre ellos. 
